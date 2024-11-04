@@ -1,0 +1,21 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Selassignment {
+
+	public static void main(String[] args) {
+		
+		//Invoking Browser
+		// chromeDriver --> Methods() to automate in chrome browser
+		//create object of any class to access the methods present in the class
+		// only implementation will differ but we can call any method for any browser
+		// something above the Driver classes giving instructions on what to do - interface->WebDriver
+		//interface- group of related methods with empty bodies
+		// classes has to implement the interface->enforces the contract to class to follow
+		//System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");//SeleniumManager is not Active upto us
+		//training perspective line 14 is important (to make it quicker)
+		//SeleniumManager-does all the compatible accordingly 
+		ChromeDriver driver = new ChromeDriver();
+		
+	}
+
+}
